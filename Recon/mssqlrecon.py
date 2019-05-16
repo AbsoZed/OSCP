@@ -1,26 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@AbsoZed
-
-56
-581
-
-    221
-
-rewardone/OSCPRepo
-Code
-Issues 0
-Pull requests 1
-Projects 0
-Wiki
-Insights
-OSCPRepo/scripts/recon_enum/mssql/mssqlrecon.py
-@rewardone rewardone sparta conf work 2bbbd87 on Aug 14, 2018
-executable file 57 lines (50 sloc) 2.99 KB
 #!/usr/bin/env python
 import subprocess
 import sys
